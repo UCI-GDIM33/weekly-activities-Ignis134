@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Penghiun
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":218.2057,"y":87553.16},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"57971f7d-4af0-4ab6-90ed-2b938d5c4ac9","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"c48e189e-b5a1-48c0-8018-891cc39ed145","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"chainable":false,"member":{"name":"localScale","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":39.0,"y":63.0},"guid":"389d2cae-c0bc-458a-ab28-a15c45e89ce2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"member":{"name":"localScale","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-363.0,"y":207.0},"guid":"ce8d37ac-3c74-4ca5-84a4-668fa389ea20","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"16"},{"inputCount":2,"defaultValues":{"1":{"x":0.1,"y":0.1,"z":0.1,"$type":"UnityEngine.Vector3"}},"position":{"x":-156.0,"y":204.0},"guid":"2a48909a-5f7b-4b94-8089-da819b04ed82","$version":"A","$type":"Unity.VisualScripting.Vector3Sum","$id":"19"},{"coroutine":false,"defaultValues":{"buttonName":{"$content":"","$type":"System.String"},"action":{"$content":"Hold","$type":"Unity.VisualScripting.PressState"}},"position":{"x":300.0,"y":-164.0},"guid":"0525479c-746a-45c7-a847-5d01d0718deb","$version":"A","$type":"Unity.VisualScripting.OnButtonInput"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"f99dd980-347e-4a65-ab99-90a209730167","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"0","guid":"c210b14b-80d6-44bb-a166-ea2ca004c21a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"sum","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"c9a6169d-dfb4-4dea-a045-3dfc192a18e7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
